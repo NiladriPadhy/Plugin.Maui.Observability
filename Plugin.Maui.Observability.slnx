@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/samples/">
+    <Project Path="samples/Plugin.Maui.Observability.Sample/Plugin.Maui.Observability.Sample.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Plugin.Maui.Observability/Plugin.Maui.Observability.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Plugin.Maui.Observability.Tests/Plugin.Maui.Observability.Tests.csproj" />
+  </Folder>
+  <Project Path="../ApiResilience/src/Plugin.Maui.ApiResilience/Plugin.Maui.ApiResilience.csproj" />
+  <Project Path="../AppHealth/src/Plugin.Maui.AppHealth/Plugin.Maui.AppHealth.csproj" />
+  <Project Path="../BackgroundTasks/src/Plugin.Maui.BackgroundTasks/Plugin.Maui.BackgroundTasks.csproj" />
+  <Project Path="../DeviceSession/src/Plugin.Maui.DeviceSession/Plugin.Maui.DeviceSession.csproj" />
+  <Project Path="../NetworkMonitor/src/Maui.NetworkMonitor/Maui.NetworkMonitor.csproj" />
+  <Project Path="../OfflineSync/src/Plugin.Maui.OfflineSync/Plugin.Maui.OfflineSync.csproj" />
+  <Project Path="../SmartUpload/src/Plugin.Maui.SmartUpload/Plugin.Maui.SmartUpload.csproj" />
+</Solution>

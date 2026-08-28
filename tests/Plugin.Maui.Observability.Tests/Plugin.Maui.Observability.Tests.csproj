@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageReference Include="xunit" Version="2.9.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Plugin.Maui.Observability\Plugin.Maui.Observability.csproj" />
+    <ProjectReference Include="..\..\..\AppHealth\src\Plugin.Maui.AppHealth\Plugin.Maui.AppHealth.csproj" />
+    <ProjectReference Include="..\..\..\NetworkMonitor\src\Maui.NetworkMonitor\Maui.NetworkMonitor.csproj" />
+    <ProjectReference Include="..\..\..\ApiResilience\src\Plugin.Maui.ApiResilience\Plugin.Maui.ApiResilience.csproj" />
+    <ProjectReference Include="..\..\..\BackgroundTasks\src\Plugin.Maui.BackgroundTasks\Plugin.Maui.BackgroundTasks.csproj" />
+    <ProjectReference Include="..\..\..\OfflineSync\src\Plugin.Maui.OfflineSync\Plugin.Maui.OfflineSync.csproj" />
+    <ProjectReference Include="..\..\..\SmartUpload\src\Plugin.Maui.SmartUpload\Plugin.Maui.SmartUpload.csproj" />
+    <ProjectReference Include="..\..\..\DeviceSession\src\Plugin.Maui.DeviceSession\Plugin.Maui.DeviceSession.csproj" />
+  </ItemGroup>
+
+</Project>

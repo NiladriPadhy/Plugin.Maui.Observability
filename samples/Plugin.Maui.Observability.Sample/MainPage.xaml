@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Plugin.Maui.Observability.Sample.MainPage"
+             Title="Observability">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="10">
+            <Label Text="Plugin.Maui.Observability" FontSize="22" FontAttributes="Bold" />
+            <Label Text="One pipeline. Seven plugins. Any exporter."
+                   TextColor="Gray" />
+
+            <Button Text="Network flap" Clicked="OnNetworkClicked" />
+            <Button Text="API retry + circuit" Clicked="OnApiClicked" />
+            <Button Text="Upload progress" Clicked="OnUploadClicked" />
+            <Button Text="Sync cycle" Clicked="OnSyncClicked" />
+            <Button Text="Background task" Clicked="OnBackgroundClicked" />
+            <Button Text="Device session" Clicked="OnDeviceClicked" />
+            <Button Text="Track exception" Clicked="OnExceptionClicked" />
+            <Button Text="Crash this session" Clicked="OnCrashClicked" BackgroundColor="#B00020" />
+            <Button Text="Flush exporters" Clicked="OnFlushClicked" />
+
+            <Label Text="Tree" FontAttributes="Bold" Margin="0,12,0,0" />
+            <Label x:Name="TreeLabel" FontFamily="Courier New" FontSize="13" LineBreakMode="WordWrap" />
+
+            <Label Text="Timeline" FontAttributes="Bold" Margin="0,12,0,0" />
+            <Label x:Name="TimelineLabel" FontFamily="Courier New" FontSize="13" LineBreakMode="WordWrap" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
