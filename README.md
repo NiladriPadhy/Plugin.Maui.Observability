@@ -1,5 +1,7 @@
 # Plugin.Maui.Observability
 
+[![NuGet](https://img.shields.io/nuget/v/Plugin.Maui.Observability.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Maui.Observability)
+
 The umbrella telemetry layer for the NugetWorld MAUI plugins.
 
 One registration call. One signal stream. Any backend.
@@ -18,6 +20,8 @@ App
 `UseMauiObservability()` registers the pipeline **and** the seven plugins underneath it, then fans every health, network, API, upload, sync, background, device, and crash event into a single export path.
 
 ## Install
+
+Package: [https://www.nuget.org/packages/Plugin.Maui.Observability](https://www.nuget.org/packages/Plugin.Maui.Observability)
 
 ```bash
 dotnet add package Plugin.Maui.Observability
