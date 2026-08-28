@@ -18,17 +18,17 @@
     <PackageId>Plugin.Maui.Observability</PackageId>
     <Title>.NET MAUI Observability — umbrella telemetry pipeline</Title>
     <Description>Umbrella telemetry pipeline for .NET MAUI on iOS and Android. Unifies AppHealth, NetworkMonitor, ApiResilience, BackgroundTasks, OfflineSync, SmartUpload, and DeviceSession into one signal stream, and exports to OpenTelemetry, Application Insights, Sentry, Datadog, Console, or a custom HTTP endpoint.</Description>
-    <PackageTags>dotnet-maui;maui;maui-plugin;maui-utilities;cross-platform;android;ios;nuget;nugetworld;observability;telemetry;logging;metrics;tracing;export;umbrella</PackageTags>
+    <PackageTags>dotnet-maui;maui;maui-plugin;maui-utilities;cross-platform;android;ios;nuget;mauiessentials;observability;telemetry;logging;metrics;tracing;export;umbrella</PackageTags>
     <Authors>Niladri</Authors>
-    <Company>NugetWorld</Company>
+    <Company>MauiEssentials</Company>
     <Copyright>Copyright © 2026 Niladri</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageProjectUrl>https://github.com/NiladriPadhy/Plugin.Maui.Observability</PackageProjectUrl>
     <RepositoryUrl>https://github.com/NiladriPadhy/Plugin.Maui.Observability</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.2</Version>
-    <PackageReleaseNotes>LLM-friendly README, llms.txt, AGENTS.md, and improved NuGet title/tags for coding-agent discoverability.</PackageReleaseNotes>
+    <Version>1.0.3</Version>
+    <PackageReleaseNotes>Rebrand catalog references from NugetWorld to MauiEssentials.</PackageReleaseNotes>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>

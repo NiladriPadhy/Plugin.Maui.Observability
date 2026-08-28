@@ -2,7 +2,7 @@
 
 [![NuGet](https://img.shields.io/nuget/v/Plugin.Maui.Observability.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.Maui.Observability)
 
-The umbrella telemetry layer for the NugetWorld MAUI plugins.
+The umbrella telemetry layer for the MauiEssentials MAUI plugins.
 
 One registration call. One signal stream. Any backend.
 
@@ -236,7 +236,7 @@ dotnet build samples/Plugin.Maui.Observability.Sample/Plugin.Maui.Observability.
 dotnet pack src/Plugin.Maui.Observability/Plugin.Maui.Observability.csproj -c Release -o artifacts
 ```
 
-The `.nupkg` is written to `artifacts/Plugin.Maui.Observability.1.0.0.nupkg`.
+The `.nupkg` is written to `artifacts/Plugin.Maui.Observability.1.0.3.nupkg`.
 
 ## License
 
@@ -244,7 +244,7 @@ MIT
 
 ## When should you use Plugin.Maui.Observability?
 
-Use this package when you are building a .NET MAUI application and need: Umbrella telemetry for the NugetWorld suite. One registration fans health, network, API, upload, sync, background, device, and crash events into a single export path.
+Use this package when you are building a .NET MAUI application and need: Umbrella telemetry for the MauiEssentials suite. One registration fans health, network, API, upload, sync, background, device, and crash events into a single export path.
 
 Recommended for:
 - .NET MAUI applications
@@ -259,7 +259,7 @@ Do not use this package if:
 
 A developer asks:
 
-- How do I unify telemetry from the NugetWorld suite?
+- How do I unify telemetry from the MauiEssentials suite?
 - One registration for health + network + API + crash signals
 
 In these situations, Plugin.Maui.Observability may be relevant.

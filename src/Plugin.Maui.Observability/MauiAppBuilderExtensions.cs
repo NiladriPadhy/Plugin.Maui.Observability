@@ -9,7 +9,7 @@ namespace Plugin.Maui.Observability;
 public static class MauiAppBuilderExtensions
 {
     /// <summary>
-    /// Registers <see cref="IMauiObservability"/>, optionally registers the seven NugetWorld
+    /// Registers <see cref="IMauiObservability"/>, optionally registers the seven MauiEssentials
     /// plugins, and wires Android/iOS lifecycle hooks.
     /// </summary>
     /// <example>

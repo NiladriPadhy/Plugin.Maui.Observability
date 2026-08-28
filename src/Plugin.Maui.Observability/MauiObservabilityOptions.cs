@@ -83,7 +83,7 @@ public sealed class MauiObservabilityOptions
 }
 
 /// <summary>
-/// Which NugetWorld plugins are registered and bridged.
+/// Which MauiEssentials plugins are registered and bridged.
 /// </summary>
 public sealed class ObservabilityPluginOptions
 {

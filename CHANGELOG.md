@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.3
+
+- Rebrand catalog references from NugetWorld to MauiEssentials.
 
 ## 1.0.2
 

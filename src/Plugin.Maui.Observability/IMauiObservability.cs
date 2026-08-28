@@ -1,7 +1,7 @@
 namespace Plugin.Maui.Observability;
 
 /// <summary>
-/// Unified telemetry pipeline over the NugetWorld MAUI plugins.
+/// Unified telemetry pipeline over the MauiEssentials MAUI plugins.
 /// </summary>
 public interface IMauiObservability
 {
