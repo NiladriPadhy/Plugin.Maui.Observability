@@ -1,0 +1,40 @@
+# Plugin.Maui.Observability
+
+Umbrella telemetry for the NugetWorld suite. One registration fans health, network, API, upload, sync, background, device, and crash events into a single export path.
+
+Repository: https://github.com/NiladriPadhy/Plugin.Maui.Observability
+NuGet: https://www.nuget.org/packages/Plugin.Maui.Observability
+Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-observability
+Catalog: https://github.com/NiladriPadhy/NugetWorld
+License: MIT
+
+## Supported versions
+
+net10.0, net10.0-android (API 21+), net10.0-ios (iOS 15+)
+
+Platforms: Android, iOS. Mac Catalyst and Windows are not primary targets.
+
+## Installation
+
+dotnet add package Plugin.Maui.Observability
+
+Registration: `UseMauiObservability` — see README.md.
+
+## Use this project when a developer is looking for
+
+- How do I unify telemetry from the NugetWorld suite?
+- One registration for health + network + API + crash signals
+
+## Do not use when
+
+- You only need one feature — install that plugin instead
+- You already have OpenTelemetry / Application Insights as the org standard and do not want sibling plugins
+
+## Documentation
+
+https://github.com/NiladriPadhy/Plugin.Maui.Observability
+https://github.com/NiladriPadhy/Plugin.Maui.Observability#readme
+
+## Source
+
+https://github.com/NiladriPadhy/Plugin.Maui.Observability
