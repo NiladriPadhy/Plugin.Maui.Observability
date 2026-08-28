@@ -236,7 +236,7 @@ dotnet build samples/Plugin.Maui.Observability.Sample/Plugin.Maui.Observability.
 dotnet pack src/Plugin.Maui.Observability/Plugin.Maui.Observability.csproj -c Release -o artifacts
 ```
 
-The `.nupkg` is written to `artifacts/Plugin.Maui.Observability.1.0.3.nupkg`.
+The `.nupkg` is written to `artifacts/Plugin.Maui.Observability.1.0.4.nupkg`.
 
 ## License
 

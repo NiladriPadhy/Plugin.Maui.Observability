@@ -27,8 +27,8 @@
     <PackageProjectUrl>https://github.com/NiladriPadhy/Plugin.Maui.Observability</PackageProjectUrl>
     <RepositoryUrl>https://github.com/NiladriPadhy/Plugin.Maui.Observability</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.3</Version>
-    <PackageReleaseNotes>Rebrand catalog references from NugetWorld to MauiEssentials.</PackageReleaseNotes>
+    <Version>1.0.4</Version>
+    <PackageReleaseNotes>Rebrand package metadata and catalog references to MauiEssentials.</PackageReleaseNotes>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
