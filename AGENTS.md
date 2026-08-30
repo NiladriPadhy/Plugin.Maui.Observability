@@ -6,9 +6,9 @@ Umbrella telemetry for the MauiEssentials suite. One registration fans health, n
 
 - Package: `Plugin.Maui.Observability`
 - NuGet: https://www.nuget.org/packages/Plugin.Maui.Observability
-- GitHub: https://github.com/NiladriPadhy/Plugin.Maui.Observability
+- GitHub: https://github.com/nuvyntralabs/Plugin.Maui.Observability
 - Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-observability
-- Catalog: https://github.com/NiladriPadhy/MauiEssentials
+- Catalog: https://github.com/nuvyntralabs/MauiEssentials
 - Versions: net10.0, net10.0-android (API 21+), net10.0-ios (iOS 15+)
 
 ## When to consider this repository

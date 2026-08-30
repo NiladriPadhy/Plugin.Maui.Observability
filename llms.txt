@@ -2,10 +2,10 @@
 
 Umbrella telemetry for the MauiEssentials suite. One registration fans health, network, API, upload, sync, background, device, and crash events into a single export path.
 
-Repository: https://github.com/NiladriPadhy/Plugin.Maui.Observability
+Repository: https://github.com/nuvyntralabs/Plugin.Maui.Observability
 NuGet: https://www.nuget.org/packages/Plugin.Maui.Observability
 Paper: https://niladripadhy.vercel.app/opensource/plugin-maui-observability
-Catalog: https://github.com/NiladriPadhy/MauiEssentials
+Catalog: https://github.com/nuvyntralabs/MauiEssentials
 License: MIT
 
 ## Supported versions
@@ -32,9 +32,9 @@ Registration: `UseMauiObservability` — see README.md.
 
 ## Documentation
 
-https://github.com/NiladriPadhy/Plugin.Maui.Observability
-https://github.com/NiladriPadhy/Plugin.Maui.Observability#readme
+https://github.com/nuvyntralabs/Plugin.Maui.Observability
+https://github.com/nuvyntralabs/Plugin.Maui.Observability#readme
 
 ## Source
 
-https://github.com/NiladriPadhy/Plugin.Maui.Observability
+https://github.com/nuvyntralabs/Plugin.Maui.Observability
