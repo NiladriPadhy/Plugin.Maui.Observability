@@ -39,6 +39,8 @@ The package depends on:
 - [Plugin.Maui.SmartUpload](https://www.nuget.org/packages/Plugin.Maui.SmartUpload)
 - [Plugin.Maui.DeviceSession](https://www.nuget.org/packages/Plugin.Maui.DeviceSession)
 
+When you build this project from the MauiEssentials hub (sibling `AppHealth/` present), the csproj sets `UseMonorepoRefs=true` and uses `ProjectReference`s. A standalone clone of this repo uses the published PackageReferences. Set `UseMonorepoRefs=false` to force NuGet packages in the hub clone.
+
 ## Quick start
 
 ```csharp
@@ -236,7 +238,7 @@ dotnet build samples/Plugin.Maui.Observability.Sample/Plugin.Maui.Observability.
 dotnet pack src/Plugin.Maui.Observability/Plugin.Maui.Observability.csproj -c Release -o artifacts
 ```
 
-The `.nupkg` is written to `artifacts/Plugin.Maui.Observability.1.0.4.nupkg`.
+The `.nupkg` is written to `artifacts/Plugin.Maui.Observability.1.0.7.nupkg`.
 
 ## License
 

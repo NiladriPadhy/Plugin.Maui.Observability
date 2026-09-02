@@ -27,8 +27,8 @@
     <PackageProjectUrl>https://nuvyntralabs.github.io/packages/plugin-maui-observability/</PackageProjectUrl>
     <RepositoryUrl>https://github.com/nuvyntralabs/Plugin.Maui.Observability</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.6</Version>
-    <PackageReleaseNotes>Point PackageProjectUrl at the Nuvyntra Labs package page.</PackageReleaseNotes>
+    <Version>1.0.7</Version>
+    <PackageReleaseNotes>Auto-use sibling ProjectReferences in the MauiEssentials hub via UseMonorepoRefs.</PackageReleaseNotes>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -45,7 +45,12 @@
     <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.2" />
   </ItemGroup>
 
-  <ItemGroup>
+  <PropertyGroup>
+    <UseMonorepoRefs Condition="'$(UseMonorepoRefs)' == '' and Exists('$(MSBuildThisFileDirectory)../../../AppHealth/src/Plugin.Maui.AppHealth/Plugin.Maui.AppHealth.csproj')">true</UseMonorepoRefs>
+    <UseMonorepoRefs Condition="'$(UseMonorepoRefs)' == ''">false</UseMonorepoRefs>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(UseMonorepoRefs)' == 'true'">
     <ProjectReference Include="..\..\..\AppHealth\src\Plugin.Maui.AppHealth\Plugin.Maui.AppHealth.csproj" />
     <ProjectReference Include="..\..\..\NetworkMonitor\src\Maui.NetworkMonitor\Maui.NetworkMonitor.csproj" />
     <ProjectReference Include="..\..\..\ApiResilience\src\Plugin.Maui.ApiResilience\Plugin.Maui.ApiResilience.csproj" />
@@ -53,6 +58,16 @@
     <ProjectReference Include="..\..\..\OfflineSync\src\Plugin.Maui.OfflineSync\Plugin.Maui.OfflineSync.csproj" />
     <ProjectReference Include="..\..\..\SmartUpload\src\Plugin.Maui.SmartUpload\Plugin.Maui.SmartUpload.csproj" />
     <ProjectReference Include="..\..\..\DeviceSession\src\Plugin.Maui.DeviceSession\Plugin.Maui.DeviceSession.csproj" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(UseMonorepoRefs)' != 'true'">
+    <PackageReference Include="Plugin.Maui.AppHealth" Version="1.0.5" />
+    <PackageReference Include="Plugin.Maui.NetworkMonitor" Version="1.0.7" />
+    <PackageReference Include="Plugin.Maui.ApiResilience" Version="1.0.8" />
+    <PackageReference Include="Plugin.Maui.BackgroundTasks" Version="1.0.6" />
+    <PackageReference Include="Plugin.Maui.OfflineSync" Version="1.0.9" />
+    <PackageReference Include="Plugin.Maui.SmartUpload" Version="1.0.6" />
+    <PackageReference Include="Plugin.Maui.DeviceSession" Version="1.0.6" />
   </ItemGroup>
 
   <ItemGroup>
